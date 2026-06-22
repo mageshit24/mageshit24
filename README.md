@@ -221,7 +221,7 @@ Demonstrates end-to-end ownership: React SPA, Express REST API, MongoDB data lay
 | Project | Description | Stack |
 |---|---|---|
 | [Student Attendance Tracker](https://github.com/mageshit24/Student-Attendance-Tracker-with-Alcohol-Detection) | Face-recognition-based attendance system with alcohol detection via sensor integration | Python · OpenCV · ESP32 · MongoDB |
-| [Angular ToDoList](https://github.com/mageshit24/Angular_ToDoList) | Standalone Angular 21 to-do app — live Netlify deploy, no external dependencies | Angular · TypeScript |
+| [Angular ToDoList](https://angulartodolistminiproject.netlify.app/) | Standalone Angular 21 to-do app — live Netlify deploy, no external dependencies | Angular · TypeScript |
 | [FlappyBird](https://github.com/mageshit24/FlappyBird) | Fully playable Flappy Bird built in Java Swing — physics, collision detection, live scoring, runs as a standalone `.jar` | Java · Swing/AWT |
 
 ---
