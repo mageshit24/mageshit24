@@ -113,23 +113,20 @@ The dual-channel design ensures the system keeps alerting locally even when the 
 
 ---
 
-## 🎓 Mini project
+## 🔬 Mini project
 
 <table>
 <tr>
 <td valign="top">
 
 ### 💤 Insomnia Prediction (IoT)
-> Third Year Mini Project - Smart pillow with ML-based sleep analysis
+> Third Year Mini Project — Smart Pillow with ML-based Sleep Analysis
 
-ESP32 streams pulse · respiration · temperature · body pressure · posture → Node.js API → MongoDB → Random Forest classifier predicts insomnia risk
+Engineered a sensor-embedded smart pillow using ESP32 to continuously monitor pulse, respiration, body temperature, pressure, and sleep posture. Sensor data streams in real time to a Node.js REST API, persisted in MongoDB, and classified by a Random Forest model to predict insomnia risk.
 
-`ESP32` `C++` `Node.js` `MongoDB` `Python` `Random Forest`
+`ESP32` `C++` `Node.js` `MongoDB` `Python` `Random Forest` `REST API`
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/mageshit24/Insomnia-Prediction-Using-IoT-Integrated-Smart-Pillow)
-
-</td>
-<td width="50%" valign="top">
 
 </td>
 </tr>
@@ -144,13 +141,13 @@ ESP32 streams pulse · respiration · temperature · body pressure · posture �
 <td width="50%" valign="top">
 
 ### 🍽️ The Cozy Table
-> Full-stack restaurant management system
+> Full-Stack Restaurant Management System
 
-Real-time order tracking · reservation flows · role-based access control · Winston structured logging · JWT auth
+Architected and deployed a production-grade restaurant platform featuring real-time order state management, reservation flows, menu filtering, JWT-secured role-based access, and Winston structured logging.
 
-`Angular 21` `Node.js` `MySQL` `Sequelize` `JWT` `RxJS`
+Resolved **40+ production-level bugs** across the full stack — including in-memory auth caching to eliminate per-request DB queries, RxJS `catchError` fix to prevent polling stream termination, and `ChangeDetectorRef.detectChanges()` injected across 10+ components to fix Angular rendering failures.
 
-40+ production-level bugs documented and resolved — including auth middleware bottlenecks, Angular change-detection failures, and RxJS polling issues.
+`Angular 21` `Node.js` `Express` `MySQL` `Sequelize` `JWT` `RxJS` `TypeScript`
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/mageshit24/the-cozy-table)
 
@@ -158,13 +155,13 @@ Real-time order tracking · reservation flows · role-based access control · Wi
 <td width="50%" valign="top">
 
 ### 👥 Employee Management System
-> Enterprise HR management platform
+> Enterprise-Grade HR Platform
 
-Department hierarchies · payroll views · JWT-secured REST endpoints · clean controller → service → repository architecture
+Built a layered Java backend (controller → service → repository) exposing a JWT-secured REST API, consumed by a React frontend. Implements department hierarchies, employee CRUD, and role-based access control — mirroring patterns used in production enterprise HR systems.
 
-`Spring Boot` `React` `MySQL` `REST API` `JWT`
+Demonstrates core **Spring Boot** competencies directly applicable to backend engineering roles: bean lifecycle, JPA/Hibernate ORM, DTO mapping, exception handling, and stateless JWT auth.
 
-Built to mirror production Java backend patterns used across enterprise HR systems.
+`Spring Boot` `Java` `React` `MySQL` `JPA/Hibernate` `JWT` `REST API`
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/mageshit24/Employee-Management-System)
 
@@ -174,13 +171,28 @@ Built to mirror production Java backend patterns used across enterprise HR syste
 <td width="50%" valign="top">
 
 ### 🚗 Driver Drowsiness Alert
-> Real-time safety system using computer vision
+> Real-Time Computer Vision Safety System
 
-Tracks eye closure with OpenCV — triggers audio alarm and sends an email alert with GPS location the moment drowsiness is detected.
+Implemented a real-time eye-aspect-ratio (EAR) algorithm on a live webcam feed using OpenCV to detect sustained eye closure. On drowsiness detection, the system triggers an audio alarm via Pygame and dispatches an email alert with the driver's GPS coordinates using smtplib and GeoPy — sub-second end-to-end response.
 
 `Python` `OpenCV` `smtplib` `Pygame` `GeoPy`
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/mageshit24/Driver-Drowsiness-Alert)
+
+</td>
+<td width="50%" valign="top">
+
+### ✅ ToDoList — MERN Stack
+> Deployed Full-Stack Web Application
+
+Built and shipped a full MERN stack to-do application with deadline tracking, overdue detection, and persistent task state. Frontend deployed on **Netlify**, backend on **Render** — live and publicly accessible.
+
+Demonstrates end-to-end ownership: React SPA, Express REST API, MongoDB data layer, CORS configuration, environment-based config, and cloud deployment.
+
+`React` `Node.js` `Express` `MongoDB` `Netlify` `Render`
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=flat&logo=netlify&logoColor=white)](https://github.com/mageshit24/ToDoList)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/mageshit24/ToDoList)
 
 </td>
 </tr>
@@ -206,12 +218,11 @@ Tracks eye closure with OpenCV — triggers audio alarm and sends an email alert
 
 ## 🔍 Other projects
 
-| Project | What it does | Stack |
+| Project | Description | Stack |
 |---|---|---|
-| [ToDoList](https://github.com/mageshit24/ToDoList) | MERN to-do app with deadline tracking & overdue detection — **live on Netlify + Render** | React · Express · MongoDB |
-| [Student Attendance Tracker](https://github.com/mageshit24/Student-Attendance-Tracker-with-Alcohol-Detection) | Marks attendance with face recognition, flags alcohol detection via sensor | Python · OpenCV · ESP32 · MongoDB |
-| [Angular ToDoList](https://github.com/mageshit24/Angular_ToDoList) | Standalone Angular 21 to-do app with live Netlify deploy | Angular · TypeScript |
-| [FlappyBird](https://github.com/mageshit24/FlappyBird) | Fully playable Flappy Bird in Java Swing — runs as a standalone `.jar` | Java · Swing/AWT |
+| [Student Attendance Tracker](https://github.com/mageshit24/Student-Attendance-Tracker-with-Alcohol-Detection) | Face-recognition-based attendance system with alcohol detection via sensor integration | Python · OpenCV · ESP32 · MongoDB |
+| [Angular ToDoList](https://github.com/mageshit24/Angular_ToDoList) | Standalone Angular 21 to-do app — live Netlify deploy, no external dependencies | Angular · TypeScript |
+| [FlappyBird](https://github.com/mageshit24/FlappyBird) | Fully playable Flappy Bird built in Java Swing — physics, collision detection, live scoring, runs as a standalone `.jar` | Java · Swing/AWT |
 
 ---
 
