@@ -16,7 +16,7 @@
   <a href="https://linkedin.com/in/magesh-hariram-k-6011132a4" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:mageshk.it24@gmail.com">
+  <a href="mailto:mageshhariramk@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
 </p>
@@ -34,9 +34,9 @@ const magesh = {
   role      : "Full-Stack Developer & ML Engineer",
   internship: "System Engineer @ EdgeVerve Finacle (Bengaluru)",
   education : "B.Tech IT — Hindusthan Institute of Technology",
-  building  : ["web apps", "AI/ML tools", "IoT sensor systems"],
+  building  : ["full-stack web apps", "ML & IoT systems", "disaster early-warning tools"],
   stack     : ["Angular", "Spring Boot", "Node.js", "Python", "MySQL"],
-  openTo    : ["full-time SWE roles", "freelance projects"],
+  openTo    : ["full-time software engineering roles"],
 };
 ```
 
@@ -59,6 +59,7 @@ const magesh = {
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 **Database**
@@ -83,6 +84,56 @@ const magesh = {
 ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 </div>
+
+---
+
+## 🎓 Major project
+
+<table>
+<tr>
+<td valign="top">
+
+### 🌩️ A Decentralized IoT & ML Framework for Hyperlocal Cloudburst Prediction
+> Final Year Major Project — Disaster Early-Warning System
+
+Traditional weather forecasting misses hyperlocal cloudburst triggers. This system deploys **ESP32 sensor nodes** in the field to monitor soil moisture, rainfall intensity, temperature, and humidity — transmitting over **two independent channels** simultaneously:
+
+- **LoRa 433MHz** → local RX node for offline field alerts (LCD · buzzer · GSM SMS) — works without internet
+- **WiFi/UDP** → Flask server running a **Random Forest classifier** → MySQL logging → live auto-refreshing dashboard
+
+The dual-channel design ensures the system keeps alerting locally even when the network is down — critical for disaster-prone, connectivity-poor regions.
+
+`ESP32` `LoRa SX1278` `C++` `Python` `Flask` `Random Forest` `MySQL` `Blynk` `GSM` `scikit-learn`
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/mageshit24/A-Decentralized-IoT-and-Machine-Learning-Framework-for-Hyperlocal-Cloudburst-Prediction)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎓 Mini project
+
+<table>
+<tr>
+<td valign="top">
+
+### 💤 Insomnia Prediction (IoT)
+> Third Year Mini Project - Smart pillow with ML-based sleep analysis
+
+ESP32 streams pulse · respiration · temperature · body pressure · posture → Node.js API → MongoDB → Random Forest classifier predicts insomnia risk
+
+`ESP32` `C++` `Node.js` `MongoDB` `Python` `Random Forest`
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/mageshit24/Insomnia-Prediction-Using-IoT-Integrated-Smart-Pillow)
+
+</td>
+<td width="50%" valign="top">
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -120,18 +171,6 @@ Built to mirror production Java backend patterns used across enterprise HR syste
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### 💤 Insomnia Prediction (IoT)
-> Smart pillow with ML-based sleep analysis
-
-ESP32 streams pulse · respiration · temperature · body pressure · posture → Node.js API → MongoDB → Random Forest classifier predicts insomnia risk
-
-`ESP32` `C++` `Node.js` `MongoDB` `Python` `Random Forest`
-
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/mageshit24/Insomnia-Prediction-Using-IoT-Integrated-Smart-Pillow)
-
-</td>
 <td width="50%" valign="top">
 
 ### 🚗 Driver Drowsiness Alert
@@ -173,18 +212,6 @@ Tracks eye closure with OpenCV — triggers audio alarm and sends an email alert
 | [Student Attendance Tracker](https://github.com/mageshit24/Student-Attendance-Tracker-with-Alcohol-Detection) | Marks attendance with face recognition, flags alcohol detection via sensor | Python · OpenCV · ESP32 · MongoDB |
 | [Angular ToDoList](https://github.com/mageshit24/Angular_ToDoList) | Standalone Angular 21 to-do app with live Netlify deploy | Angular · TypeScript |
 | [FlappyBird](https://github.com/mageshit24/FlappyBird) | Fully playable Flappy Bird in Java Swing — runs as a standalone `.jar` | Java · Swing/AWT |
-
----
-
-## 💼 Available for freelance
-
-If you're looking for someone to build or improve your web app, dashboard, or automation pipeline:
-
-- **Full-stack web apps** — Angular or React frontend, Node.js or Spring Boot backend, MySQL or MongoDB
-- **Custom AI & automation tools** — Python prediction models, OpenCV pipelines, automation scripts
-- **IoT dashboards & sensor systems** — firmware through to a live real-time dashboard
-
-Reach me on [LinkedIn](https://linkedin.com/in/magesh-hariram-k-6011132a4) or check out my [portfolio](https://mageshhariramk.netlify.app).
 
 ---
 
